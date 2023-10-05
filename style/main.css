@@ -233,6 +233,10 @@ h3{
         padding: 5px;
     }
 
+    #Adunmo{
+        display: none;
+    }
+
     .name{
         font-size: 15px;
         width: fit-content;
