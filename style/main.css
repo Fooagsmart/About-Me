@@ -84,6 +84,9 @@ div a img:hover{
 #back{
     background: #333;
     color: #ccc;
+    text-align: center;
+    font-style: oblique;
+    padding-bottom: 10px;
 }
 #back a{
     color: #ccc;
@@ -102,6 +105,7 @@ div a img:hover{
 @media (min-width: 200px){
     body{
         overflow-x: hidden;
+        height: fit-content;
     }
 
     .navbar{
