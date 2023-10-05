@@ -221,4 +221,15 @@ h3{
     text-decoration: none;
 }
 
+@media (max-width: 500px){
+    .navigate ul{
+        gap: 5px;
+    }
+
+    .name{
+        font-size: large;
+        width: fit-content;
+    }
+})
+
   
