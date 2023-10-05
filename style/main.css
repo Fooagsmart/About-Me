@@ -203,7 +203,7 @@ h3{
     display: grid;
     border: groove;
     padding: 20px;
-    width: 40rem;
+    width: 30rem;
 }
 
 .proj img{
@@ -218,41 +218,5 @@ h3{
     text-decoration: none;
 }
 
-
-@media (min-width: 200px) {
-    .navbar{
-        padding: 20px;
-    }
-
-    .container{
-        overflow-x: hidden;
-        padding: 1rem;
-    }
-
-    .navigate .name {
-        color: aqua;
-    }
-
-    .about p{
-        width:fit-content;
-    }
-
-    .navbar{
-        padding: 20px;
-    }
-
-    .contact h3{
-        font-size: 30px;
-        width: 24rem;
-    }
-
-    #proj{
-        width: 20rem;
-    }
-
-    .navigate ul{
-        gap: 10px;
-    }
-}
 
   
