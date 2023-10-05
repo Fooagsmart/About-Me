@@ -4,12 +4,14 @@
     box-sizing: border-box;
 }
 
-body{
+/*body{
     height: fit-content;
     overflow-x: hidden;
-}
+}*/
 
 .container{
+    width: 100%;
+    min-height: 100vh;
     background: #ccc;
     height: fit-content;
     display: flex;
@@ -108,7 +110,7 @@ div a img:hover{
     color:#f38686;
 }
 
-@media (min-width: 200px){
+/*@media (min-width: 200px){
     body{
         overflow-x: hidden;
         height: fit-content;
