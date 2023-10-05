@@ -66,5 +66,18 @@ div a img:hover{
 #p{
   font-weight: bold;  
 }
+#back{
+    background: #333;
+    color: #ccc;
+}
+#back a{
+    color: #ccc;
+    text-decoration: none;
+    padding-left: 1250px;
+    font-weight: bold;
+}
+#back a:hover{
+    color: #fff;    
+}
 
   
