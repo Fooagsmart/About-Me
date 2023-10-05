@@ -96,7 +96,7 @@ div a img:hover{
     color:#f38686;
 }
 
-/* @media (min-width: 1280px){ /
+@media (min-width: 1280px){ 
     body{
         overflow-x: hidden;
     }
@@ -120,7 +120,7 @@ div a img:hover{
         padding-top: 15px;
         text-align: center;
     }
-} */
+}
 
 @media (max-width: 420px){
     body{
