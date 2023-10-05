@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -39,7 +39,7 @@
     gap: 20px;
 }
 
-#name{
+.name{
     padding-top: 20px;
 }
 
@@ -48,7 +48,7 @@
     color: grey;
 }
 
-#about p{
+.about p{
     width: 75rem;
 }
 
@@ -60,7 +60,7 @@
     display: grid;
     gap: 2rem;
 }
-#proj{
+.proj{
     border: groove thin #757575;
     padding: 20px;
     width: 70rem;
@@ -78,26 +78,26 @@ div a img:hover{
     background: #cf2525;
     color: transparent;
 }
-#p{
+.p{
   font-weight: bold;  
 }
-#back{
+.back{
     background: #333;
     color: #ccc;
     text-align: center;
     font-style: oblique;
     padding-bottom: 10px;
 }
-#back a{
+.back a{
     color: #ccc;
     text-decoration: none;
     padding-left: 1250px;
     font-weight: bold;
 }
-#back a:hover{
+.back a:hover{
     color: #fff;    
 }
-#contact p a{
+.contact p a{
     text-decoration: none;
     color:#f38686;
 }
@@ -140,12 +140,16 @@ div a img:hover{
         padding-top: 25px;
         text-align: center;
     }
-}
+} */
 
-/**{
+*{
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+}
+
+body{
+    padding-bottom: 10px;
 }
 
 .navbar{
@@ -180,17 +184,27 @@ div a img:hover{
     gap: 3rem;
 }
 
-#proj{
+.project{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.proj{
     display: grid;
     gap: 10px;
     border: groove;
 }
 
-#proj img{
+.proj img{
     width: 8rem;
     border-radius: 25px;
     margin-top: 29px;
     border: groove;
-}*/
+}
+
+@media (min-width: 200px) {
+    
+}
 
   
