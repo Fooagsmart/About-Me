@@ -23,6 +23,9 @@
     align-items: center;
     padding: 5px 20px;
 }
+.navbar a:hover{
+    background: #494949;
+}
 .navigate a{
     display: inline-block;
     color: #fff;
@@ -56,7 +59,12 @@ div a img{
     border-radius: 10%;
     box-shadow: 0 0 3px;
 }
+div a img:hover{
+    background: #cf2525;
+    color: transparent;
+}
 #p{
   font-weight: bold;  
 }
+
   
