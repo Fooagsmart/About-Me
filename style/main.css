@@ -163,10 +163,6 @@ body{
     color: white;
 }
 
-.name{
-    font-size: xx-large;
-}
-
 .navigate ul{
     display: flex;
     gap: 2rem;
@@ -198,8 +194,7 @@ body{
     display: grid;
     gap: 10px;
     border: groove;
-    width: 20rem;
-    padding: 20px 30px;
+    padding: 10px 40px;
 }
 
 .proj img{
@@ -209,11 +204,9 @@ body{
     border: groove;
 }
 
-@media (min-width: 200px) {
-    .name{
-        font-size: large;
-        color: aqua;
-    }
+#contact p a{
+    color: black;
+    text-decoration: none;
 }
 
   
