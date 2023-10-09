@@ -48,9 +48,6 @@
     margin-top: 20px;
 }
 
-h3{
-    font-size: xx-large;
-}
 div h2{
     font-size:xx-large;
 }
@@ -102,6 +99,29 @@ h4{
 }
 .back a:hover{
     color: red;    
+}
+#modal-container{
+    display: none;
+}
+#close-btn{
+    font-size: 3rem;
+    cursor: pointer;
+    color: red;
+}
+#open-btn{
+    cursor: pointer;
+}
+
+#modal-container2{
+    display: none;
+}
+#close-btn2{
+    font-size: 3rem;
+    cursor: pointer;
+    color: red;
+}
+#open-btn2{
+    cursor: pointer;
 }
 
 
