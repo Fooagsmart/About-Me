@@ -49,3 +49,22 @@ window.addEventListener('click' ,function(e){
     }
 });
 
+/* menu toggle*/
+
+const menu = document.querySelector('.tog')
+const menus = document.querySelector('ul')
+const close = document.querySelector('.close')
+const hid = document.querySelector('ul')
+
+
+menu.addEventListener('click', function(){
+    menus.style.display = 'block'
+})
+
+close.addEventListener('click', function(){
+    menus.style.display = 'none'
+})
+
+hid.addEventListener('click', function(){
+    menus.style.display = 'none'
+})
